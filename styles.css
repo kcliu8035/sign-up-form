@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   color: white;
+    
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: black;
+    
+}
+
+.logoContent {
+    height: 100vh;
+    width: 30vw;
+    background-image: url("images/test1.jpg");
+    background-size: 300%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#citation {
+    position: absolute;
+    bottom: 0px;
+}
+
+.mainContent {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+}
+
+.header {
+    height: 25vh;
+    /* background-color: grey; */
+}
+
+.form {
+    display: flex;
+    flex-direction: row;;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50vh;
+    /* background-color: bisque; */
+}
+
+.infoSet1, .infoSet2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.login {
+    /* background-color: sienna; */
+    height: 25vh;
+}
